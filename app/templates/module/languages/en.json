@@ -1,0 +1,17 @@
+{
+    "<%= id %>.Meta.Title": "<%= name %>",
+    "<%= id %>.Meta.Description": "<%= description %>",
+
+    "<%= id %>.Meta.Author.Name": "<%= autherName %>",
+    "<%= id %>.Meta.Author.Email": "<%= authorMail %>",
+    "<%= id %>.Meta.Author.Discord": "<%= authorDiscord %>",
+
+    "<%= id %>.Meta.Repository": "<%= url %>",
+    "<%= id %>.Meta.Manifest": "<%= url %>/releases/download/0.0.1/module.json",
+    "<%= id %>.Meta.License": "<%= url %>/releases/download/0.0.1/LICENSE",
+    "<%= id %>.Meta.ReadMe": "<%= url %>/releases/download/0.0.1/README.md",
+    "<%= id %>.Meta.ChangeLog": "<%= url %>/releases/download/0.0.1/CHANGELOG.md",
+    "<%= id %>.Meta.Bugs": "<%= url %>/issues"
+
+    
+}

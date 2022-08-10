@@ -1,0 +1,16 @@
+{
+  "name": "generator-foundryvtt-module",
+  "version": "1.0.0",
+  "description": "",
+  "files": [
+    "app"
+  ],
+  "author": "Miah Nelah",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^5.7.0"
+  },
+  "license": "ISC"
+}

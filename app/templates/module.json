@@ -1,0 +1,45 @@
+{
+    "id": "<%= id %>",
+    "title": "<%= name %>",
+    "description": "<%= description %>",
+    "version": "0.0.1",
+    "url": "<%= url %>",
+    "manifest": "<%= url %>/releases/download/0.0.1/module.json",
+    "download": "<%= url %>/releases/download/0.0.1/module.zip",
+    "license": "<%= url %>/releases/download/0.0.1/LICENSE",
+    "readme": "<%= url %>/releases/download/0.0.1/README.md",
+    "changelog": "<%= url %>/releases/download/0.0.1/CHANGELOG.md",
+    "bugs": "<%= url %>/issues",
+    
+    "minimumCoreVersion": "<%= minimumVersion %>",
+    "compatibility": {
+        "minimum": "<%= minimumVersion %>",
+        "verified": "<%= verifiedVersion %>"
+    },
+
+    "authors": [
+        {
+            "name": "<%= autherName %>",
+            "email": "<%= authorMail %>",
+            "discord": "<%= authorDiscord %>"
+        }
+    ],
+        
+    "packs": [ ],        
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "module/languages/en.json"
+        }
+    ],
+
+    "esmodules": [ ],
+    "scripts": [ ],
+    "styles": [ ],
+    "library": "<%= isLibrary %>",
+    "socket": "<%= useSocket %>",
+
+    "system": [ ],
+    "relationships": { }
+}
